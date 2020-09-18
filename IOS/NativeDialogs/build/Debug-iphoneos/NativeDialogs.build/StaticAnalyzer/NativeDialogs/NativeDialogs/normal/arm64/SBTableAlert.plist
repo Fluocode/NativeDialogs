@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+ <key>clang_version</key>
+<string>Apple clang version 11.0.3 (clang-1103.0.32.62)</string>
+ <key>diagnostics</key>
+ <array>
+  <dict>
+   <key>path</key>
+   <array>
+    <dict>
+     <key>kind</key><string>control</string>
+     <key>edges</key>
+      <array>
+       <dict>
+        <key>start</key>
+         <array>
+          <dict>
+           <key>line</key><integer>175</integer>
+           <key>col</key><integer>2</integer>
+           <key>file</key><integer>0</integer>
+          </dict>
+          <dict>
+           <key>line</key><integer>175</integer>
+           <key>col</key><integer>2</integer>
+           <key>file</key><integer>0</integer>
+          </dict>
+         </array>
+        <key>end</key>
+         <array>
+          <dict>
+           <key>line</key><integer>176</integer>
+           <key>col</key><integer>2</integer>
+           <key>file</key><integer>0</integer>
+          </dict>
+          <dict>
+           <key>line</key><integer>176</integer>
+           <key>col</key><integer>2</integer>
+           <key>file</key><integer>0</integer>
+          </dict>
+         </array>
+       </dict>
+      </array>
+    </dict>
+    <dict>
+     <key>kind</key><string>event</string>
+     <key>location</key>
+     <dict>
+      <key>line</key><integer>176</integer>
+      <key>col</key><integer>2</integer>
+      <key>file</key><integer>0</integer>
+     </dict>
+     <key>ranges</key>
+     <array>
+       <array>
+        <dict>
+         <key>line</key><integer>176</integer>
+         <key>col</key><integer>2</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+        <dict>
+         <key>line</key><integer>176</integer>
+         <key>col</key><integer>16</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+       </array>
+     </array>
+     <key>depth</key><integer>0</integer>
+     <key>extended_message</key>
+     <string>The &apos;_cellBackgroundView&apos; ivar in &apos;SBTableAlertCell&apos; was retained by a synthesized property but not released before &apos;[super dealloc]&apos;</string>
+     <key>message</key>
+     <string>The &apos;_cellBackgroundView&apos; ivar in &apos;SBTableAlertCell&apos; was retained by a synthesized property but not released before &apos;[super dealloc]&apos;</string>
+    </dict>
+   </array>
+   <key>description</key><string>The &apos;_cellBackgroundView&apos; ivar in &apos;SBTableAlertCell&apos; was retained by a synthesized property but not released before &apos;[super dealloc]&apos;</string>
+   <key>category</key><string>Memory (Core Foundation/Objective-C/OSObject)</string>
+   <key>type</key><string>Missing ivar release (leak)</string>
+   <key>check_name</key><string>osx.cocoa.Dealloc</string>
+   <!-- This hash is experimental and going to change! -->
+   <key>issue_hash_content_of_line_in_context</key><string>660c2bba973f75520fff4d9e4e75b128</string>
+  <key>issue_context_kind</key><string>Objective-C method</string>
+  <key>issue_context</key><string>dealloc</string>
+  <key>issue_hash_function_offset</key><string>2</string>
+  <key>location</key>
+  <dict>
+   <key>line</key><integer>176</integer>
+   <key>col</key><integer>2</integer>
+   <key>file</key><integer>0</integer>
+  </dict>
+  <key>ExecutedLines</key>
+  <dict>
+   <key>0</key>
+   <array>
+    <integer>174</integer>
+    <integer>175</integer>
+    <integer>176</integer>
+   </array>
+  </dict>
+  </dict>
+ </array>
+ <key>files</key>
+ <array>
+  <string>/Users/emmanuelgomez/Documents/GitHub/NativeDialogs__0/IOS/NativeDialogs/external/SBTableAlert/SBTableAlert.m</string>
+ </array>
+</dict>
+</plist>

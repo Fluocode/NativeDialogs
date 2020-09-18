@@ -1,0 +1,9 @@
+<platform xmlns="http://ns.adobe.com/air/extension/16.0">
+    <description >NativeDialogs</description> 
+    <sdkVersion>13.0</sdkVersion>
+    <copyright>2020</copyright>
+    <linkerOptions> 
+<!--        <option>-framework CoreMotion</option> -->
+    </linkerOptions> 
+</platform>
+

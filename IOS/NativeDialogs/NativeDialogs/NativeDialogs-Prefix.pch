@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'NativeDialogs' target in the 'NativeDialogs' project
+//
+
+#ifdef __OBJC__
+    #import <QuartzCore/QuartzCore.h>
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+
+    #define MYDEBUG
+#endif
