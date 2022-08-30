@@ -1,4 +1,4 @@
 package com.fluocode.nativeANE
 {
-	public namespace nativeDialogNamespace = "http://mateuszmackowiak.art.pl/as/namespaces/nativeANE/nativedialog_namespace";
+	public namespace nativeDialogNamespace = "http://fluocode.com/as/namespaces/nativeANE/nativedialog_namespace";
 }
