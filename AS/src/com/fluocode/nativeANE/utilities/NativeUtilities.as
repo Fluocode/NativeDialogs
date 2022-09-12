@@ -14,6 +14,7 @@ package com.fluocode.nativeANE.utilities
 	import com.fluocode.nativeANE.events.NativeDialogEvent;
 	
 	import flash.display.Stage;
+	import flash.geom.Rectangle;
 
 	/**
 	 * Simple NativeAlert extension that allows you to
@@ -41,6 +42,13 @@ package com.fluocode.nativeANE.utilities
 		 * The current Version of the Extension.
 		 */
 		public static const VERSION:String = "0.9.5 Beta";
+		
+		/**
+		 * The current Version of the Extension.
+		 */
+		public static const CUTOUTMODE_DEFAULT:int = 0;
+		public static const CUTOUTMODE_SHORT_EDGES:int = 1;
+		public static const CUTOUTMODE_NEVER:int = 2;
 				
 		//---------------------------------------------------------------------
 		//
@@ -251,6 +259,98 @@ package com.fluocode.nativeANE.utilities
 			}
 		}
 		
+		
+	
+		
+		//////////////////////////////////////////////////////////////////
+		
+		 /**
+         * Sets UI visibility flags.
+         * @param flags Values from the <code>AndroidUIFlags</code> class.
+         * @see com.marpies.ane.androidutils.data.AndroidUIFlags
+         */
+        public static function setUIVisibility( flags:int ):void {
+            if( !isAndroid()  ) return;
+
+            context.call( "setUIVisibility", flags );
+        }
+		
+		
+		/**
+         * Hides the status bar. This changes flags on the entire application's window and not the main view.
+         * This means that when another native view appears (for example, a dialog), the status bar will stay hidden.
+         * If the status bar was hidden using <code>setUIVisibility</code> then it would show up when the dialog appears.
+         */
+        public static function hideWindowStatusBar():void {
+            if( !isAndroid()  ) return;
+
+            context.call( "hideWindowStatusBar" );
+        }
+
+        /**
+         * Makes the navigation bar translucent. Supported on Android Kitkat (API 19) and above.
+         */
+        public static function setTranslucentNavigation():void {
+            if( !isAndroid()  ) return;
+
+            context.call( "setTranslucentNavigation" );
+        }
+		
+		
+		
+		
+		 /**
+         * Set brightness for application's window.
+         * @param value Decimal between 0-1, or -1 to use user's preference.
+         */
+        public static function setBrightness( value:Number ):void {
+            if( !isAndroid()  ) return;
+
+            context.call( "setBrightness", value );
+        }
+		
+		
+		
+		/**
+		 * Sets the cutout mode. Use <code>CutoutMode.SHORT_EDGES</code> to render app within device's cutout area.
+		 * @param mode
+		 */
+		public static function setCutoutMode( mode:int ):void {
+			if( !isAndroid()  ) return;
+
+			context.call( "setCutoutMode", mode );
+		}
+
+        /**
+         * Enables or disables system UI visibility listener.
+         * Add event listener for <code>AndroidUIVisibilityEvent.CHANGE</code> to be notified
+         * when the system UI flags change.
+         *
+         * @param enable Set to <code>true</code> to enable the listener, <code>false</code> to remove it.
+         */
+        public static function enableUIVisibilityListener( enable:Boolean ):void {
+            if( !isAndroid()  ) return;
+
+            context.call( "UIVisibilityListener", enable );
+        }
+		
+		
+		public static function get supportedUIFlags():Vector.<int> {
+            if( !isAndroid()  ) return new <int>[];
+
+            return context.call( "getSupportedUIFlags") as Vector.<int>;
+        }
+		
+		
+		  public static function get displayCutoutRects():Vector.<Rectangle> {
+            if( !isAndroid()   ) return null;
+
+            return context.call( "getDisplayCutoutRects") as Vector.<Rectangle>;
+        }
+		
+		
+		
+		//////////////////////////////////////////////////////////////////
 		
 
 		

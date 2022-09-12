@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75cc3bf5-5e64-45f3-9ef6-4cedb33d6463" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__C__Users_Emmanuel_Documents_GitHub_NativeDialogs_ANDROID_app_libs_FlashRuntimeExtensions_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/ANDROID.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app/ANDROID.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/fluocode/nativeANE/NativeDialogs/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/release/pl/mateuszmackowiak/nativeANE/NativeDialogs/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/aapt_friendly_merged_manifests/release/aapt/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/aapt_friendly_merged_manifests/release/aapt/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/annotation_processor_list/debug/annotationProcessors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_only_not_namespaced_r_class_jar/release/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_only_not_namespaced_r_class_jar/release/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/z9vLgl_PLhBz8x6OM+vL0butwPs=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageReleaseAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageReleaseAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageReleaseResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageReleaseResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/GE6iVw_tU86rtiLkwB+jbdVwEZg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/FREUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/NativeDialogs/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/NativeDialogsExtension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/DatePickerDialogContext$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/DatePickerDialogContext$ConfitmListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/DatePickerDialogContext$MyDatePickerDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/DatePickerDialogContext$MyOnDateChangeListenr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/DatePickerDialogContext$MyOnTimeChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/DatePickerDialogContext$MyTimePickerDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/DatePickerDialogContext$TimeAndDatePicker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/DatePickerDialogContext$dismiss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/DatePickerDialogContext$isShowing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/DatePickerDialogContext$setDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/DatePickerDialogContext$shake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/DatePickerDialogContext$show.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/DatePickerDialogContext$updateMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/DatePickerDialogContext$updateTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/DatePickerDialogContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ListDialogContext$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ListDialogContext$ConfitmListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ListDialogContext$IndexChange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ListDialogContext$SingleChoiceClickListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ListDialogContext$dismiss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ListDialogContext$isShowing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ListDialogContext$setCancelable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ListDialogContext$shake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ListDialogContext$show.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ListDialogContext$updateTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ListDialogContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativeAlertContext$AlertListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativeAlertContext$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativeAlertContext$dismiss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativeAlertContext$isShowing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativeAlertContext$shake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativeAlertContext$showAlertFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativeAlertContext$updateMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativeAlertContext$updateTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativeAlertContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativePickerDialogContext$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativePickerDialogContext$ClickListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativePickerDialogContext$PickerDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativePickerDialogContext$dismiss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativePickerDialogContext$isShowing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativePickerDialogContext$onMyWeelChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativePickerDialogContext$setCancelable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativePickerDialogContext$setSelectedIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativePickerDialogContext$show.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativePickerDialogContext$updateTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativePickerDialogContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativeUtilitiesContext$getStatusBarHeight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativeUtilitiesContext$isDarkMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativeUtilitiesContext$navigationBarStyleLight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativeUtilitiesContext$statusBarColor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativeUtilitiesContext$statusBarStyleLight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/NativeUtilitiesContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ProgressDialogContext$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ProgressDialogContext$dismiss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ProgressDialogContext$isShowing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ProgressDialogContext$setCancelable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ProgressDialogContext$setIndeterminate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ProgressDialogContext$setMax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ProgressDialogContext$shake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ProgressDialogContext$show.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ProgressDialogContext$updateMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ProgressDialogContext$updateProgress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ProgressDialogContext$updateSecondary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ProgressDialogContext$updateTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ProgressDialogContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/TextInputContext$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/TextInputContext$ClickListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/TextInputContext$CustomTextWatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/TextInputContext$TextInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/TextInputContext$TextInputDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/TextInputContext$dismiss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/TextInputContext$isShowing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/TextInputContext$setCancelable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/TextInputContext$shake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/TextInputContext$show.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/TextInputContext$updateTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/TextInputContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ToastContext$showToast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/fluocode/nativeANE/functions/ToastContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/kankan/wheel/widget/ItemsRange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/kankan/wheel/widget/OnWheelChangedListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/kankan/wheel/widget/OnWheelClickedListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/kankan/wheel/widget/OnWheelScrollListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/kankan/wheel/widget/WheelAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/kankan/wheel/widget/WheelRecycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/kankan/wheel/widget/WheelScroller$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/kankan/wheel/widget/WheelScroller$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/kankan/wheel/widget/WheelScroller$ScrollingListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/kankan/wheel/widget/WheelScroller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/kankan/wheel/widget/WheelView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/kankan/wheel/widget/WheelView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/kankan/wheel/widget/WheelView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/kankan/wheel/widget/adapters/AbstractWheelAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/kankan/wheel/widget/adapters/AbstractWheelTextAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/kankan/wheel/widget/adapters/AdapterWheel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/kankan/wheel/widget/adapters/ArrayWheelAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/kankan/wheel/widget/adapters/NumericWheelAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/kankan/wheel/widget/adapters/WheelViewAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/FREUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/NativeDialogsExtension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/DatePickerDialogContext$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/DatePickerDialogContext$ConfitmListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/DatePickerDialogContext$MyDatePickerDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/DatePickerDialogContext$MyOnDateChangeListenr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/DatePickerDialogContext$MyOnTimeChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/DatePickerDialogContext$MyTimePickerDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/DatePickerDialogContext$TimeAndDatePicker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/DatePickerDialogContext$dismiss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/DatePickerDialogContext$isShowing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/DatePickerDialogContext$setDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/DatePickerDialogContext$shake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/DatePickerDialogContext$show.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/DatePickerDialogContext$updateMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/DatePickerDialogContext$updateTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/DatePickerDialogContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ListDialogContext$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ListDialogContext$ConfitmListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ListDialogContext$IndexChange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ListDialogContext$SingleChoiceClickListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ListDialogContext$dismiss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ListDialogContext$isShowing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ListDialogContext$setCancelable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ListDialogContext$shake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ListDialogContext$show.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ListDialogContext$updateTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ListDialogContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativeAlertContext$AlertListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativeAlertContext$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativeAlertContext$dismiss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativeAlertContext$isShowing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativeAlertContext$shake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativeAlertContext$showAlertFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativeAlertContext$updateMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativeAlertContext$updateTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativeAlertContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativePickerDialogContext$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativePickerDialogContext$ClickListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativePickerDialogContext$PickerDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativePickerDialogContext$dismiss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativePickerDialogContext$isShowing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativePickerDialogContext$onMyWeelChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativePickerDialogContext$setCancelable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativePickerDialogContext$setSelectedIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativePickerDialogContext$show.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativePickerDialogContext$updateTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativePickerDialogContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativeUtilitiesContext$getStatusBarHeight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativeUtilitiesContext$isDarkMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativeUtilitiesContext$navigationBarStyleLight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativeUtilitiesContext$statusBarColor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativeUtilitiesContext$statusBarStyleLight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/NativeUtilitiesContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ProgressDialogContext$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ProgressDialogContext$dismiss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ProgressDialogContext$isShowing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ProgressDialogContext$setCancelable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ProgressDialogContext$setIndeterminate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ProgressDialogContext$setMax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ProgressDialogContext$shake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ProgressDialogContext$show.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ProgressDialogContext$updateMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ProgressDialogContext$updateProgress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ProgressDialogContext$updateSecondary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ProgressDialogContext$updateTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ProgressDialogContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/TextInputContext$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/TextInputContext$ClickListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/TextInputContext$CustomTextWatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/TextInputContext$TextInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/TextInputContext$TextInputDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/TextInputContext$dismiss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/TextInputContext$isShowing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/TextInputContext$setCancelable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/TextInputContext$shake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/TextInputContext$show.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/TextInputContext$updateTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/TextInputContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ToastContext$showToast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/pl/mateuszmackowiak/nativeANE/functions/ToastContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/kankan/wheel/widget/WheelScroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/kankan/wheel/widget/WheelScroller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/kankan/wheel/widget/WheelView.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/kankan/wheel/widget/WheelView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/kankan/wheel/widget/adapters/AbstractWheelAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/kankan/wheel/widget/adapters/AbstractWheelAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/kankan/wheel/widget/adapters/AbstractWheelTextAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/kankan/wheel/widget/adapters/AbstractWheelTextAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/kankan/wheel/widget/adapters/ArrayWheelAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/kankan/wheel/widget/adapters/ArrayWheelAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/kankan/wheel/widget/adapters/NumericWheelAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/kankan/wheel/widget/adapters/NumericWheelAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/FREUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/NativeDialogs/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/NativeDialogsExtension$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/NativeDialogsExtension$ConfitmListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/NativeDialogsExtension$MyDatePickerDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/NativeDialogsExtension$MyOnDateChangeListenr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/NativeDialogsExtension$MyOnTimeChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/NativeDialogsExtension$MyTimePickerDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/NativeDialogsExtension$TimeAndDatePicker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/NativeDialogsExtension$dismiss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/NativeDialogsExtension$isShowing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/NativeDialogsExtension$setDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/NativeDialogsExtension$shake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/NativeDialogsExtension$show.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/NativeDialogsExtension$updateMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/NativeDialogsExtension$updateTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/NativeDialogsExtension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/DatePickerDialogContext$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/DatePickerDialogContext$ConfitmListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/DatePickerDialogContext$MyDatePickerDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/DatePickerDialogContext$MyOnDateChangeListenr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/DatePickerDialogContext$MyOnTimeChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/DatePickerDialogContext$MyTimePickerDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/DatePickerDialogContext$TimeAndDatePicker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/DatePickerDialogContext$dismiss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/DatePickerDialogContext$isShowing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/DatePickerDialogContext$setDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/DatePickerDialogContext$shake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/DatePickerDialogContext$show.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/DatePickerDialogContext$updateMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/DatePickerDialogContext$updateTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/DatePickerDialogContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ListDialogContext$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ListDialogContext$ConfitmListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ListDialogContext$IndexChange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ListDialogContext$SingleChoiceClickListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ListDialogContext$dismiss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ListDialogContext$isShowing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ListDialogContext$setCancelable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ListDialogContext$shake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ListDialogContext$show.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ListDialogContext$updateTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ListDialogContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/NativeAlertContext$AlertListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/NativeAlertContext$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/NativeAlertContext$dismiss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/NativeAlertContext$isShowing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/NativeAlertContext$shake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/NativeAlertContext$showAlertFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/NativeAlertContext$updateMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/NativeAlertContext$updateTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/NativeAlertContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/NativePickerDialogContext$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/NativePickerDialogContext$ClickListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/NativePickerDialogContext$PickerDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/NativePickerDialogContext$dismiss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/NativePickerDialogContext$isShowing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/NativePickerDialogContext$onMyWeelChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/NativePickerDialogContext$setCancelable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/NativePickerDialogContext$setSelectedIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/NativePickerDialogContext$show.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/NativePickerDialogContext$updateTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/NativePickerDialogContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ProgressDialogContext$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ProgressDialogContext$dismiss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ProgressDialogContext$isShowing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ProgressDialogContext$setCancelable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ProgressDialogContext$setIndeterminate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ProgressDialogContext$setMax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ProgressDialogContext$shake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ProgressDialogContext$show.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ProgressDialogContext$updateMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ProgressDialogContext$updateProgress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ProgressDialogContext$updateSecondary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ProgressDialogContext$updateTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ProgressDialogContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/TextInputContext$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/TextInputContext$ClickListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/TextInputContext$CustomTextWatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/TextInputContext$TextInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/TextInputContext$TextInputDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/TextInputContext$dismiss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/TextInputContext$isShowing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/TextInputContext$setCancelable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/TextInputContext$shake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/TextInputContext$show.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/TextInputContext$updateTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/TextInputContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ToastContext$showToast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/pl/mateuszmackowiak/nativeANE/functoins/ToastContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_manifest/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/library_manifest/release/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/library_manifest/release/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/local_only_symbol_list/debug/parseDebugLibraryResources/R-def.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/local_only_symbol_list/release/parseReleaseLibraryResources/R-def.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/local_only_symbol_list/release/parseReleaseLibraryResources/R-def.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debugAndroidTest/manifest-merger-blame-debug-androidTest-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/release/manifest-merger-blame-release-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/release/manifest-merger-blame-release-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/release/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/release/out.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debugAndroidTest/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged-classes/debug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged-classes/debug/libs/FlashRuntimeExtensions.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged-classes/release/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged-classes/release/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged-classes/release/libs/FlashRuntimeExtensions.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged-classes/release/libs/FlashRuntimeExtensions.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/release/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/release/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/sourceFolderJavaResources/debug/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/sourceFolderJavaResources/debug/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/release/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/release/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/aar/app-debug.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-release-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-release-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/FlashRuntimeExtensions.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/FlashRuntimeExtensions.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fluocode/nativeANE/FREUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fluocode/nativeANE/FREUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fluocode/nativeANE/functions/NativeUtilitiesContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fluocode/nativeANE/functions/NativeUtilitiesContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AS/src/com/fluocode/nativeANE/utilities/NativeUtilities.as" beforeDir="false" afterPath="$PROJECT_DIR$/../AS/src/com/fluocode/nativeANE/utilities/NativeUtilities.as" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Binaries/Android/libNativeDialogs.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Binaries/Android/libNativeDialogs.jar" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2EEjYxk9tcEeUxdbrebyu2mS9pN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75cc3bf5-5e64-45f3-9ef6-4cedb33d6463" name="Default Changelist" comment="" />
+      <created>1662167688428</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662167688428</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

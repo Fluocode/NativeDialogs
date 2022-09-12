@@ -1,0 +1,41 @@
+<extension xmlns="http://ns.adobe.com/air/extension/30.0">
+    <id>com.fluocode.nativeANE.NativeDialogs</id>
+	<versionNumber>1.3.1</versionNumber>
+    <copyright>2019, Fluocode Team. All rights reserved.</copyright>
+	 <description>
+		<text xml:lang="en">Dialogs Air Native Extension</text> 
+     </description> 
+    <platforms>
+		<platform name="Android-ARM64">
+			<applicationDeployment>
+				<nativeLibrary>libNativeDialogs.jar</nativeLibrary>
+                <initializer>com.fluocode.nativeANE.NativeDialogsExtension</initializer>
+                <finalizer>com.fluocode.nativeANE.NativeDialogsExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libNativeDialogs.jar</nativeLibrary>
+                <initializer>com.fluocode.nativeANE.NativeDialogsExtension</initializer>
+                <finalizer>com.fluocode.nativeANE.NativeDialogsExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+        <platform name="Android-x86">
+            <applicationDeployment>
+                <nativeLibrary>libNativeDialogs.jar</nativeLibrary>
+                <initializer>com.fluocode.nativeANE.NativeDialogsExtension</initializer>
+                <finalizer>com.fluocode.nativeANE.NativeDialogsExtension</finalizer>
+            </applicationDeployment>
+        </platform>
+        <platform name="iPhone-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libNativeDialogs.a</nativeLibrary>
+                <initializer>NativeDialogsExtInitializer</initializer>
+                <finalizer>NativeDialogsExtFinalizer</finalizer>
+            </applicationDeployment>
+        </platform>
+        <platform name="default">
+            <applicationDeployment/>
+        </platform>
+    </platforms>
+</extension>
