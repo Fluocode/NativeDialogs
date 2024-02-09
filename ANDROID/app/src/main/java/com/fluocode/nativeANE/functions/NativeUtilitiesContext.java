@@ -62,6 +62,7 @@ public class NativeUtilitiesContext  extends FREContext {
 		functionMap.put(isDarkMode.KEY, new isDarkMode());
 		functionMap.put(statusBarStyleLight.KEY, new statusBarStyleLight());
 		functionMap.put(statusBarColor.KEY, new statusBarColor());
+		functionMap.put(navigationBarColor.KEY, new navigationBarColor());
 		functionMap.put(navigationBarStyleLight.KEY, new navigationBarStyleLight());
 		////
 		functionMap.put( GetSupportedUIFlags.KEY, new GetSupportedUIFlags() );
@@ -232,6 +233,35 @@ public class NativeUtilitiesContext  extends FREContext {
 			return null;
 		}
 	}
+
+	public class navigationBarColor implements FREFunction {
+
+		public static final String KEY = "navigationBarColor";
+
+		@SuppressLint("NewApi")
+		@Override
+		public FREObject call(FREContext frecontext, FREObject[] args) {
+
+			if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+				Log.i(KEY, "Changing status bar color is not supported");
+				return null;
+			}
+
+			try {
+				int color = Color.parseColor(args[0].getAsString());
+				Window window = frecontext.getActivity().getWindow();
+				window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+				window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+				window.setNavigationBarColor(color);
+			} catch (Exception e) {
+				Log.i(KEY, "Error parsing status bar color: " + e.getMessage());
+			}
+
+			return null;
+		}
+	}
+
+
 
 	//////////////////
 	public class GetSupportedUIFlags implements FREFunction {

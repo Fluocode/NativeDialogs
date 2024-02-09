@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.fluocode.nativeANE.NativeDialogs.app-merged_res-19:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\esdeb\\.gradle\\caches\\transforms-3\\02bd3dc424c179ad132442b66a940314\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.fluocode.nativeANE.NativeDialogs.app-mergeReleaseResources-17:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\esdeb\\.gradle\\caches\\transforms-3\\02bd3dc424c179ad132442b66a940314\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}

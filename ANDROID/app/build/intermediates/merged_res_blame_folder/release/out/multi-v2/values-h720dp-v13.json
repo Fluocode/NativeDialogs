@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.fluocode.nativeANE.NativeDialogs.app-merged_res-19:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\esdeb\\.gradle\\caches\\transforms-3\\02bd3dc424c179ad132442b66a940314\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.fluocode.nativeANE.NativeDialogs.app-mergeReleaseResources-17:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\esdeb\\.gradle\\caches\\transforms-3\\02bd3dc424c179ad132442b66a940314\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

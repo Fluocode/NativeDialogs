@@ -1,9 +1,7 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 32
-    buildToolsVersion '32.0.0'
-
+    namespace 'com.fluocode.nativeANE.NativeDialogs'
     defaultConfig {
         minSdkVersion 8
         targetSdkVersion 32
@@ -15,9 +13,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+    compileSdk 33
 }
 
 dependencies {
     implementation files('libs/FlashRuntimeExtensions.jar')
-    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
 }

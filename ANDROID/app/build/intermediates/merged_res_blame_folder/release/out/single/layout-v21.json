@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.fluocode.nativeANE.NativeDialogs.app-merged_res-19:/layout-v21/notification_action.xml",
+        "source": "com.fluocode.nativeANE.NativeDialogs.app-core-1.9.0-15:/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "com.fluocode.nativeANE.NativeDialogs.app-merged_res-19:/layout-v21/notification_template_icon_group.xml",
+        "source": "com.fluocode.nativeANE.NativeDialogs.app-core-1.9.0-15:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.fluocode.nativeANE.NativeDialogs.app-merged_res-19:/layout-v21/notification_action_tombstone.xml",
+        "source": "com.fluocode.nativeANE.NativeDialogs.app-core-1.9.0-15:/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "com.fluocode.nativeANE.NativeDialogs.app-merged_res-19:/layout-v21/notification_template_custom_big.xml",
+        "source": "com.fluocode.nativeANE.NativeDialogs.app-core-1.9.0-15:/layout-v21/notification_template_custom_big.xml"
+    }
+]
