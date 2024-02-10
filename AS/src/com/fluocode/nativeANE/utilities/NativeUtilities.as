@@ -242,6 +242,27 @@ package com.fluocode.nativeANE.utilities
 		
 		/**@private*/
 		/**
+		 * Change the navigation bar color.
+		 * 
+		 * @throws Error if the call was unsuccessful. Or will dispatch an Error Event.ERROR if there is a listener.
+		 */
+		public static function navigationBarColor(color:uint):void
+		{
+			var strColor:String =  "#" + color.toString(16);
+			try
+			{
+				if(isAndroid())
+					context.call("navigationBarColor", strColor);
+			} 
+			catch(error:Error) 
+			{
+				showError("'navigationBarColor' "+error.message,error.errorID);
+			}
+		}
+		
+		
+		/**@private*/
+		/**
 		 * Shakes the dialog.
 		 * 
 		 * @throws Error if the call was unsuccessful. Or will dispatch an Error Event.ERROR if there is a listener.

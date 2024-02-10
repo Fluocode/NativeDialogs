@@ -3,7 +3,7 @@ CLS
 
 
 
-SET AIR="C:\Users\Emmanuel\Documents\AIRSDK\AIR33.1.1.929
+SET AIR="C:\Users\esdeb\Documentos\AIRSDK\AIRSDK_50.2.4.3
 SET ADT=%AIR%\bin\adt"
 SET NAME=NativeDialogs
 

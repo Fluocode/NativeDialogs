@@ -15,7 +15,7 @@ move libNativeDialogs.jar Android-x86/libNativeDialogs.jar
 
  
 
-SET AIR="C:\Users\Emmanuel\Documents\AIRSDK\AIR33.1.1.929
+SET AIR="C:\Users\esdeb\Documentos\AIRSDK\AIRSDK_50.2.4.3
 SET ACOMPC=%AIR%\bin\acompc"
 SET ADT=%AIR%\bin\adt"
 
@@ -46,7 +46,7 @@ SET ANDROID_PLATFORM=-platform Android-ARM -C Android-ARM .
 SET ANDROID_A64=-platform Android-ARM64 -C Android-ARM64 . 
 SET ANDROID_X86=-platform Android-x86 -C Android-x86 . 
 SET MAC_PLATFORM=-platform MacOS-x86 -C macos . 
-SET DEFAULT_PLATFORM=-platform default -C default . 
+SET DEFAULT_PLATFORM=-platform default -C actionscriptDefault . 
 
 
 echo "GENERATING ANE"
