@@ -260,6 +260,44 @@ package com.fluocode.nativeANE.utilities
 			}
 		}
 		
+		/**@private*/
+		/**
+		 * Change the status bar color to trasparent.
+		 * 
+		 * @throws Error if the call was unsuccessful. Or will dispatch an Error Event.ERROR if there is a listener.
+		 */
+		public static function statusBarTransparent():void
+		{
+			try
+			{
+				if(isAndroid())
+					context.call("statusBarTransparent");
+			} 
+			catch(error:Error) 
+			{
+				showError("'statusBarTransparent' "+error.message,error.errorID);
+			}
+		}
+		
+		/**@private*/
+		/**
+		 * Change the navigation bar color to trasparent.
+		 * 
+		 * @throws Error if the call was unsuccessful. Or will dispatch an Error Event.ERROR if there is a listener.
+		 */
+		public static function navigationBarTransparent():void
+		{
+			try
+			{
+				if(isAndroid())
+					context.call("navigationBarTransparent");
+			} 
+			catch(error:Error) 
+			{
+				showError("'navigationBarTransparent' "+error.message,error.errorID);
+			}
+		}
+		
 		
 		/**@private*/
 		/**
@@ -277,6 +315,25 @@ package com.fluocode.nativeANE.utilities
 			catch(error:Error) 
 			{
 				showError("'navigationBarStyleLight' "+error.message,error.errorID);
+			}
+		}
+		
+		/**@private*/
+		/**
+		 * Shakes the dialog.
+		 * 
+		 * @throws Error if the call was unsuccessful. Or will dispatch an Error Event.ERROR if there is a listener.
+		 */
+		public static function hideNavigation(light:Boolean):void
+		{
+			try
+			{
+				if(isAndroid())
+					context.call("hideNavigation", light);
+			} 
+			catch(error:Error) 
+			{
+				showError("'hideNavigation' "+error.message,error.errorID);
 			}
 		}
 		

@@ -1,6 +1,6 @@
 ﻿/** 
  * @author Mateusz Maćkowiak
- * @see http://mateuszmackowiak.wordpress.com/
+ * @see http://fluocode.com/
  * @since 2011
  */
 package com.fluocode.nativeANE.utilities
@@ -8,9 +8,12 @@ package com.fluocode.nativeANE.utilities
 	import flash.events.StatusEvent;
 	import flash.external.ExtensionContext;
 	
+	import flash.system.Capabilities;
+	
 	import com.fluocode.nativeANE.utilities.support.AbstractNativeUtilities;
 	import com.fluocode.nativeANE.events.NativeDialogEvent;
 	
+	import flash.display.Stage;
 	import flash.geom.Rectangle;
 
 	/**
@@ -19,7 +22,7 @@ package com.fluocode.nativeANE.utilities
 	 * what button the user pressed to close the alert.
 	 * 
 	 * @author Mateusz Maćkowiak
-	 * @see http://mateuszmackowiak.wordpress.com/
+	 * @see http://fluocode.com/
 	 * @since 2011
 	 * 
 	 */
@@ -38,7 +41,7 @@ package com.fluocode.nativeANE.utilities
 		/**
 		 * The current Version of the Extension.
 		 */
-		public static const VERSION:String = "0.9.7";
+		public static const VERSION:String = "0.9.5 Beta";
 		
 		/**
 		 * The current Version of the Extension.
@@ -86,7 +89,7 @@ package com.fluocode.nativeANE.utilities
 		 * @since 2011
 		 * 
 		 * @see com.fluocode.nativeANE.events.NativeDialogEvent
-		 * @see http://mateuszmackowiak.wordpress.com/
+		 * @see http://fluocode.com/
 		 * 
 		 * 
 		 * @event com.fluocode.nativeANE.events.NativeDialogEvent.OPENED
@@ -144,13 +147,25 @@ package com.fluocode.nativeANE.utilities
 		 * 
 		 * @throws Error if the call was unsuccessful. Or will dispatch an Error Event.ERROR if there is a listener.
 		 */
+		//public static function getStatusBarHeight(stage:Stage=null):Number
 		public static function getStatusBarHeight():Number
 		{
 			var barHeight:Number =-1;
 			try
 			{
-				if(isIOS() || isAndroid())
+				if(isIOS() || isAndroid()){
 					barHeight = context.call("getStatusBarHeight") as Number;
+					/*
+					if(stage){
+						var relY:Number = stage.stageHeight/Capabilities.screenResolutionY;
+						barHeight = barHeight *relY;
+						if(isIOS())
+							barHeight = barHeight/2;
+					}
+					*/
+					if(isIOS())
+					barHeight = barHeight*2;
+				}
 			} 
 			catch(error:Error) 
 			{
@@ -224,9 +239,10 @@ package com.fluocode.nativeANE.utilities
 			}
 		}
 		
+		
 		/**@private*/
 		/**
-		 * Shakes the dialog.
+		 * Change the navigation bar color.
 		 * 
 		 * @throws Error if the call was unsuccessful. Or will dispatch an Error Event.ERROR if there is a listener.
 		 */
@@ -241,6 +257,44 @@ package com.fluocode.nativeANE.utilities
 			catch(error:Error) 
 			{
 				showError("'navigationBarColor' "+error.message,error.errorID);
+			}
+		}
+		
+		/**@private*/
+		/**
+		 * Change the status bar color to trasparent.
+		 * 
+		 * @throws Error if the call was unsuccessful. Or will dispatch an Error Event.ERROR if there is a listener.
+		 */
+		public static function statusBarTransparent():void
+		{
+			try
+			{
+				if(isAndroid())
+					context.call("statusBarTransparent");
+			} 
+			catch(error:Error) 
+			{
+				showError("'statusBarTransparent' "+error.message,error.errorID);
+			}
+		}
+		
+		/**@private*/
+		/**
+		 * Change the navigation bar color to trasparent.
+		 * 
+		 * @throws Error if the call was unsuccessful. Or will dispatch an Error Event.ERROR if there is a listener.
+		 */
+		public static function navigationBarTransparent():void
+		{
+			try
+			{
+				if(isAndroid())
+					context.call("navigationBarTransparent");
+			} 
+			catch(error:Error) 
+			{
+				showError("'navigationBarTransparent' "+error.message,error.errorID);
 			}
 		}
 		
@@ -264,6 +318,8 @@ package com.fluocode.nativeANE.utilities
 			}
 		}
 		
+		
+	
 		
 		//////////////////////////////////////////////////////////////////
 		
@@ -355,6 +411,7 @@ package com.fluocode.nativeANE.utilities
 		
 		//////////////////////////////////////////////////////////////////
 		
+
 		
 		/**
 		 * Whether the extension is available on the device (<code>true</code>);<br>otherwise <code>false</code>.

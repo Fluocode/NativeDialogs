@@ -64,6 +64,9 @@ public class NativeUtilitiesContext  extends FREContext {
 		functionMap.put(statusBarColor.KEY, new statusBarColor());
 		functionMap.put(navigationBarColor.KEY, new navigationBarColor());
 		functionMap.put(navigationBarStyleLight.KEY, new navigationBarStyleLight());
+		functionMap.put(statusBarTransparent.KEY, new statusBarTransparent());
+		functionMap.put(navigationBarTransparent.KEY, new navigationBarTransparent());
+		functionMap.put(hideNavigation.KEY, new hideNavigation());
 		////
 		functionMap.put( GetSupportedUIFlags.KEY, new GetSupportedUIFlags() );
 		functionMap.put( SetUIVisibility.KEY, new SetUIVisibility() );
@@ -255,6 +258,83 @@ public class NativeUtilitiesContext  extends FREContext {
 				window.setNavigationBarColor(color);
 			} catch (Exception e) {
 				Log.i(KEY, "Error parsing status bar color: " + e.getMessage());
+			}
+
+			return null;
+		}
+	}
+
+public class statusBarTransparent implements FREFunction {
+
+		public static final String KEY = "statusBarTransparent";
+
+		@SuppressLint("NewApi")
+		@Override
+		public FREObject call(FREContext frecontext, FREObject[] args) {
+
+			if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+				Log.i(KEY, "Changing status bar color is not supported");
+				return null;
+			}
+
+			try {
+				Window window = frecontext.getActivity().getWindow();
+				window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+				window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+				window.setStatusBarColor(Color.TRANSPARENT);
+			} catch (Exception e) {
+				Log.i(KEY, "Error parsing status bar color: " + e.getMessage());
+			}
+
+			return null;
+		}
+	}
+
+public class navigationBarTransparent implements FREFunction {
+
+		public static final String KEY = "navigationBarTransparent";
+
+		@SuppressLint("NewApi")
+		@Override
+		public FREObject call(FREContext frecontext, FREObject[] args) {
+
+			if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+				Log.i(KEY, "Changing status bar color is not supported");
+				return null;
+			}
+
+			try {
+				Window window = frecontext.getActivity().getWindow();
+				window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+				window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+				window.setNavigationBarColor(Color.TRANSPARENT);
+			} catch (Exception e) {
+				Log.i(KEY, "Error parsing status bar color: " + e.getMessage());
+			}
+
+			return null;
+		}
+	}
+	
+	
+	public class hideNavigation implements FREFunction {
+
+		public static final String KEY = "hideNavigation";
+
+		@SuppressLint("NewApi")
+		@Override
+		public FREObject call(FREContext frecontext, FREObject[] args) {
+
+			if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+				Log.i(KEY, "Hide navigation bars is not supported");
+				return null;
+			}
+
+			try {
+				Window window = frecontext.getActivity().getWindow();
+				window.addFlags(View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION);
+			} catch (Exception e) {
+				Log.i(KEY, "Error parsing hide navigation bars: " + e.getMessage());
 			}
 
 			return null;

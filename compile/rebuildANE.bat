@@ -34,6 +34,7 @@ copy library.swf Android-ARM/library.swf
 copy library.swf Android-x86/library.swf
 copy library.swf Android-ARM64/library.swf
 copy library.swf iPhone-ARM/library.swf
+copy library.swf default/library.swf
 
 :: del library.swf
 del catalog.xml
@@ -46,7 +47,7 @@ SET ANDROID_PLATFORM=-platform Android-ARM -C Android-ARM .
 SET ANDROID_A64=-platform Android-ARM64 -C Android-ARM64 . 
 SET ANDROID_X86=-platform Android-x86 -C Android-x86 . 
 SET MAC_PLATFORM=-platform MacOS-x86 -C macos . 
-SET DEFAULT_PLATFORM=-platform default -C actionscriptDefault . 
+SET DEFAULT_PLATFORM=-platform default -C default . 
 
 
 echo "GENERATING ANE"
