@@ -1,4 +1,4 @@
-package com.fluocode.nativeANE.dialogs.support
+﻿package com.fluocode.nativeANE.dialogs.support
 {
 	import flash.events.ErrorEvent;
 	import flash.events.EventDispatcher;
@@ -226,7 +226,8 @@ package com.fluocode.nativeANE.dialogs.support
 
 		public static function isIOS():Boolean
 		{
-			return Capabilities.os.toLowerCase().indexOf("ip")>-1;
+			//return Capabilities.os.toLowerCase().indexOf("ip")>-1;
+			return Capabilities.manufacturer.indexOf("ios")>-1;
 		}
 		public static function isAndroid():Boolean
 		{

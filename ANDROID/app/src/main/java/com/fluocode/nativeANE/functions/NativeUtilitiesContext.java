@@ -15,6 +15,7 @@ import com.adobe.fre.FREWrongThreadException;
 import com.fluocode.nativeANE.FREUtilities;
 import com.fluocode.nativeANE.NativeDialogsExtension;
 import android.annotation.SuppressLint;
+import android.app.ActionBar;
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.graphics.Rect;
@@ -77,6 +78,8 @@ public class NativeUtilitiesContext  extends FREContext {
 		functionMap.put(SetTranslucentNavigation.KEY, new SetTranslucentNavigation() );
 		functionMap.put(IsImmersiveSupported.KEY, new IsImmersiveSupported() );
 		functionMap.put(HideWindowStatusBar.KEY, new HideWindowStatusBar() );
+		functionMap.put(fullscreenMode.KEY, new fullscreenMode() );
+		functionMap.put(blockScreenshot.KEY, new blockScreenshot() );
 		// add other functions here
 		return functionMap;
 	}
@@ -210,6 +213,60 @@ public class NativeUtilitiesContext  extends FREContext {
 	}
 
 
+
+	public class fullscreenMode implements FREFunction {
+
+		public static final String KEY = "fullscreenMode";
+
+		@SuppressLint("NewApi")
+		@Override
+		public FREObject call(FREContext frecontext, FREObject[] args) {
+
+			try {
+				boolean mode = args[0].getAsBool();
+				Window window = frecontext.getActivity().getWindow();
+
+				if (Build.VERSION.SDK_INT < 16) { //ye olde method
+					if(mode) {
+						window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+								WindowManager.LayoutParams.FLAG_FULLSCREEN);
+					}else {
+						window.clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+					}
+				} else { // Jellybean and up, new hotness
+					View decorView = window.getDecorView();
+					int uiOptions;
+
+					if (mode) {
+						// Hide the status bar.
+						uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
+						decorView.setSystemUiVisibility(uiOptions);
+						ActionBar actionBar = frecontext.getActivity().getActionBar();
+						actionBar.hide();
+					} else { // Jellybean and up, new hotness
+						uiOptions = View.SYSTEM_UI_FLAG_VISIBLE;
+						//////
+						decorView.setSystemUiVisibility(
+								View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+										| View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+										| View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
+						////////
+						decorView.setSystemUiVisibility(uiOptions);
+						ActionBar actionBar = frecontext.getActivity().getActionBar();
+						actionBar.show();
+					}
+
+				}
+
+			} catch (Exception e) {
+				Log.i(KEY, "Error parsing fullscreen mode: " + e.getMessage());
+			}
+
+
+			return null;
+		}
+	}
+
 	public class statusBarColor implements FREFunction {
 
 		public static final String KEY = "statusBarColor";
@@ -315,8 +372,42 @@ public class navigationBarTransparent implements FREFunction {
 			return null;
 		}
 	}
-	
-	
+
+
+
+	public class blockScreenshot implements FREFunction {
+
+		public static final String KEY = "blockScreenshot";
+
+		@SuppressLint("NewApi")
+		@Override
+		public FREObject call(FREContext frecontext, FREObject[] args) {
+
+			try {
+				boolean mode = args[0].getAsBool();
+
+				if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+					Log.i(KEY, "blockScreenshot is not supported");
+					return null;
+				}
+
+				Window window = frecontext.getActivity().getWindow();
+				if(mode) {
+					window.setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
+				}else {
+					window.clearFlags(WindowManager.LayoutParams.FLAG_SECURE);
+				}
+			} catch (Exception e) {
+				Log.i(KEY, "Error parsing block Screenshot: " + e.getMessage());
+			}
+
+			return null;
+		}
+	}
+
+
+
+
 	public class hideNavigation implements FREFunction {
 
 		public static final String KEY = "hideNavigation";
@@ -325,14 +416,20 @@ public class navigationBarTransparent implements FREFunction {
 		@Override
 		public FREObject call(FREContext frecontext, FREObject[] args) {
 
-			if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
-				Log.i(KEY, "Hide navigation bars is not supported");
-				return null;
-			}
-
 			try {
+				boolean mode = args[0].getAsBool();
+
+				if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+					Log.i(KEY, "Hide navigation bars is not supported");
+					return null;
+				}
+
 				Window window = frecontext.getActivity().getWindow();
-				window.addFlags(View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION);
+				if(mode) {
+					window.addFlags(View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION);
+				}else{
+					window.clearFlags(View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION);
+				}
 			} catch (Exception e) {
 				Log.i(KEY, "Error parsing hide navigation bars: " + e.getMessage());
 			}
@@ -340,7 +437,6 @@ public class navigationBarTransparent implements FREFunction {
 			return null;
 		}
 	}
-
 
 
 	//////////////////
@@ -388,6 +484,8 @@ public class navigationBarTransparent implements FREFunction {
 			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
 				frecontext.getActivity().getWindow().getDecorView().setSystemUiVisibility( flags );
 			}
+
+
 			// SYSTEM_UI_FLAG_HIDE_NAVIGATION     14
 			// hide nav, appears on touch
 

@@ -201,6 +201,29 @@ package com.fluocode.nativeANE.utilities
 		
 		/**@private*/
 		/**
+		 * Block Screenshot
+		 * 
+		 * @throws Error if the call was unsuccessful. Or will dispatch an Error Event.ERROR if there is a listener.
+		 */
+		public static function blockScreenshot(block:Boolean):void
+		{
+			if( !isAndroid()  ) return;
+			try
+			{
+				//if(isIOS() || isAndroid())
+				if(isAndroid())
+					context.call("blockScreenshot", block);
+			} 
+			catch(error:Error) 
+			{
+				showError("'blockScreenshot' "+error.message,error.errorID);
+			}
+		}
+		
+		
+		
+		/**@private*/
+		/**
 		 * Shakes the dialog.
 		 * 
 		 * @throws Error if the call was unsuccessful. Or will dispatch an Error Event.ERROR if there is a listener.
@@ -227,6 +250,7 @@ package com.fluocode.nativeANE.utilities
 		 */
 		public static function statusBarColor(color:uint):void
 		{
+			if( !isAndroid()  ) return;
 			var strColor:String =  "#" + color.toString(16);
 			try
 			{
@@ -239,6 +263,26 @@ package com.fluocode.nativeANE.utilities
 			}
 		}
 		
+		/**@private*/
+		/**
+		 * Fullscreen mode
+		 * 
+		 * @throws Error if the call was unsuccessful. Or will dispatch an Error Event.ERROR if there is a listener.
+		 */
+		public static function fullscreen(mode:Boolean):void
+		{
+			if( !isAndroid()  ) return;
+			try
+			{
+				if(isAndroid())
+					context.call("fullscreenMode", mode);
+			} 
+			catch(error:Error) 
+			{
+				showError("'fullscreenMode' "+error.message,error.errorID);
+			}
+		}
+		
 		
 		/**@private*/
 		/**
@@ -248,6 +292,7 @@ package com.fluocode.nativeANE.utilities
 		 */
 		public static function navigationBarColor(color:uint):void
 		{
+			if( !isAndroid()  ) return;
 			var strColor:String =  "#" + color.toString(16);
 			try
 			{
@@ -268,6 +313,7 @@ package com.fluocode.nativeANE.utilities
 		 */
 		public static function statusBarTransparent():void
 		{
+			if( !isAndroid()  ) return;
 			try
 			{
 				if(isAndroid())
@@ -287,6 +333,7 @@ package com.fluocode.nativeANE.utilities
 		 */
 		public static function navigationBarTransparent():void
 		{
+			if( !isAndroid()  ) return;
 			try
 			{
 				if(isAndroid())
@@ -307,6 +354,7 @@ package com.fluocode.nativeANE.utilities
 		 */
 		public static function navigationBarStyleLight(light:Boolean):void
 		{
+			if( !isAndroid()  ) return;
 			try
 			{
 				if(isAndroid())
@@ -326,6 +374,7 @@ package com.fluocode.nativeANE.utilities
 		 */
 		public static function hideNavigation(light:Boolean):void
 		{
+			if( !isAndroid()  ) return;
 			try
 			{
 				if(isAndroid())
