@@ -1,0 +1,255 @@
+<?xml version="1.0" ?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+    <versions>
+        <swc version="1.2"/>
+        <compiler name="ActionScript Compiler" version="2.3.0" build="0"/>
+    </versions>
+    <features>
+        <feature-script-deps/>
+    </features>
+    <libraries>
+        <library path="library.swf">
+            <script name="com/fluocode/nativeANE/dialogs/NativeAlertDialog" mod="1711412825511">
+                <def id="com.fluocode.nativeANE.dialogs:NativeAlertDialog"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.fluocode.nativeANE.dialogs.support:AbstractNativeDialog" type="i"/>
+                <dep id="com.fluocode.nativeANE.events:NativeDialogEvent" type="e"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="isNaN" type="e"/>
+                <dep id="trace" type="e"/>
+                <dep id="uint" type="s"/>
+            </script>
+            <script name="com/fluocode/nativeANE/dialogs/NativeDatePickerDialog" mod="1711412825511">
+                <def id="com.fluocode.nativeANE.dialogs:NativeDatePickerDialog"/>
+                <dep id="Array" type="e"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Date" type="s"/>
+                <dep id="Error" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="Number" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.fluocode.nativeANE.dialogs:NativeAlertDialog" type="e"/>
+                <dep id="com.fluocode.nativeANE.dialogs.support:AbstractNativeDialog" type="i"/>
+                <dep id="com.fluocode.nativeANE.events:NativeDialogEvent" type="e"/>
+                <dep id="flash.events:Event" type="e"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="isNaN" type="e"/>
+                <dep id="trace" type="e"/>
+                <dep id="uint" type="s"/>
+            </script>
+            <script name="com/fluocode/nativeANE/dialogs/NativeListDialog" mod="1711412825511">
+                <def id="com.fluocode.nativeANE.dialogs:NativeListDialog"/>
+                <dep id="Array" type="e"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.fluocode.nativeANE.dialogs:NativeAlertDialog" type="e"/>
+                <dep id="com.fluocode.nativeANE.dialogs.support:AbstractNativeDialog" type="i"/>
+                <dep id="com.fluocode.nativeANE.events:NativeDialogEvent" type="e"/>
+                <dep id="com.fluocode.nativeANE.events:NativeDialogListEvent" type="e"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="isNaN" type="e"/>
+                <dep id="trace" type="e"/>
+                <dep id="uint" type="s"/>
+            </script>
+            <script name="com/fluocode/nativeANE/dialogs/NativePickerDialog" mod="1711412825512">
+                <def id="com.fluocode.nativeANE.dialogs:NativePickerDialog"/>
+                <dep id="Array" type="e"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="Number" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.fluocode.nativeANE.dialogs:NativeAlertDialog" type="e"/>
+                <dep id="com.fluocode.nativeANE.dialogs.support:AbstractNativeDialog" type="i"/>
+                <dep id="com.fluocode.nativeANE.dialogs.support:PickerList" type="s"/>
+                <dep id="com.fluocode.nativeANE.events:NativeDialogEvent" type="e"/>
+                <dep id="com.fluocode.nativeANE.events:NativeDialogListEvent" type="e"/>
+                <dep id="com.fluocode.nativeANE:nativeDialogNamespace" type="n"/>
+                <dep id="flash.events:Event" type="e"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="isNaN" type="e"/>
+                <dep id="trace" type="e"/>
+                <dep id="uint" type="s"/>
+            </script>
+            <script name="com/fluocode/nativeANE/dialogs/NativeProgressDialog" mod="1711412825512">
+                <def id="com.fluocode.nativeANE.dialogs:NativeProgressDialog"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.fluocode.nativeANE.dialogs:NativeAlertDialog" type="e"/>
+                <dep id="com.fluocode.nativeANE.dialogs.support:AbstractNativeDialog" type="i"/>
+                <dep id="com.fluocode.nativeANE.events:NativeDialogEvent" type="e"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="isNaN" type="e"/>
+                <dep id="uint" type="s"/>
+            </script>
+            <script name="com/fluocode/nativeANE/dialogs/NativeTextInputDialog" mod="1711412825512">
+                <def id="com.fluocode.nativeANE.dialogs:NativeTextInputDialog"/>
+                <dep id="Array" type="e"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.fluocode.nativeANE.dialogs:NativeAlertDialog" type="e"/>
+                <dep id="com.fluocode.nativeANE.dialogs.support:AbstractNativeDialog" type="i"/>
+                <dep id="com.fluocode.nativeANE.dialogs.support:NativeTextField" type="s"/>
+                <dep id="com.fluocode.nativeANE.events:NativeDialogEvent" type="e"/>
+                <dep id="com.fluocode.nativeANE:nativeDialogNamespace" type="n"/>
+                <dep id="flash.events:Event" type="e"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.events:TextEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="isNaN" type="e"/>
+                <dep id="trace" type="e"/>
+                <dep id="uint" type="s"/>
+            </script>
+            <script name="com/fluocode/nativeANE/dialogs/support/AbstractNativeDialog" mod="1711412825512">
+                <def id="com.fluocode.nativeANE.dialogs.support:AbstractNativeDialog"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="s"/>
+                <dep id="Math" type="e"/>
+                <dep id="Number" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.fluocode.nativeANE.dialogs.support:iNativeDialog" type="i"/>
+                <dep id="com.fluocode.nativeANE:nativeDialogNamespace" type="n"/>
+                <dep id="flash.events:ErrorEvent" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="flash.system:Capabilities" type="e"/>
+                <dep id="flash.utils:Dictionary" type="e"/>
+                <dep id="flash.utils:getQualifiedClassName" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="isNaN" type="e"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <script name="com/fluocode/nativeANE/dialogs/support/NativeTextField" mod="1711412825512">
+                <def id="com.fluocode.nativeANE.dialogs.support:NativeTextField"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.fluocode.nativeANE.dialogs:NativeTextInputDialog" type="s"/>
+                <dep id="com.fluocode.nativeANE:nativeDialogNamespace" type="n"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+            </script>
+            <script name="com/fluocode/nativeANE/dialogs/support/PickerList" mod="1711412825512">
+                <def id="com.fluocode.nativeANE.dialogs.support:PickerList"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="Number" type="s"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="TypeError" type="e"/>
+                <dep id="__AS3__.vec:Vector" type="e"/>
+                <dep id="com.fluocode.nativeANE.dialogs:NativePickerDialog" type="s"/>
+                <dep id="com.fluocode.nativeANE:nativeDialogNamespace" type="n"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="int" type="s"/>
+                <dep id="trace" type="e"/>
+                <dep id="uint" type="e"/>
+            </script>
+            <script name="com/fluocode/nativeANE/dialogs/support/iNativeDialog" mod="1711412825512">
+                <def id="com.fluocode.nativeANE.dialogs.support:iNativeDialog"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:IEventDispatcher" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/fluocode/nativeANE/events/NativeDialogEvent" mod="1711412825512">
+                <def id="com.fluocode.nativeANE.events:NativeDialogEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <script name="com/fluocode/nativeANE/events/NativeDialogListEvent" mod="1711412825512">
+                <def id="com.fluocode.nativeANE.events:NativeDialogListEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/fluocode/nativeANE/nativeDialogNamespace" mod="1711412825512">
+                <def id="com.fluocode.nativeANE:nativeDialogNamespace"/>
+            </script>
+            <script name="com/fluocode/nativeANE/notifications/Toast" mod="1711412825512">
+                <def id="com.fluocode.nativeANE.notifications:Toast"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="com.fluocode.nativeANE.dialogs:NativeAlertDialog" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="flash.system:Capabilities" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="isNaN" type="e"/>
+            </script>
+            <script name="com/fluocode/nativeANE/utilities/NativeUtilities" mod="1711417841255">
+                <def id="com.fluocode.nativeANE.utilities:NativeUtilities"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="Number" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.fluocode.nativeANE.events:NativeDialogEvent" type="e"/>
+                <dep id="com.fluocode.nativeANE.utilities.support:AbstractNativeUtilities" type="i"/>
+                <dep id="flash.events:StatusEvent" type="s"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="flash.geom:Rectangle" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="uint" type="s"/>
+            </script>
+            <script name="com/fluocode/nativeANE/utilities/support/AbstractNativeUtilities" mod="1711412825512">
+                <def id="com.fluocode.nativeANE.utilities.support:AbstractNativeUtilities"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="s"/>
+                <dep id="Math" type="e"/>
+                <dep id="Number" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.fluocode.nativeANE:nativeDialogNamespace" type="n"/>
+                <dep id="com.fluocode.nativeANE.utilities.support:iNativeUtilites" type="i"/>
+                <dep id="flash.events:ErrorEvent" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="flash.system:Capabilities" type="e"/>
+                <dep id="flash.utils:Dictionary" type="e"/>
+                <dep id="flash.utils:getQualifiedClassName" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="isNaN" type="e"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <script name="com/fluocode/nativeANE/utilities/support/iNativeUtilites" mod="1711412825513">
+                <def id="com.fluocode.nativeANE.utilities.support:iNativeUtilites"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:IEventDispatcher" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <digests>
+                <digest type="SHA-256" signed="false" value="cf6a9f99ba1b1ed21debbdfec5639aa75492768208b994c5bc8839b5a785de97"/>
+            </digests>
+        </library>
+    </libraries>
+</swc>

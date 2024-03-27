@@ -56,6 +56,14 @@ FREObject statusBarStyleLight(FREContext ctx, void* functionData, uint32_t argc,
     return NULL;
 }
 
+FREObject setBrightness(FREContext ctx, void* functionData, uint32_t argc, FREObject argv[] ){
+    NativeDialogControler *nativeDialogController = functionData;
+    double value = 0;
+    FREGetObjectAsDouble(argv[0], &value);
+    [[UIScreen mainScreen] setBrightness: value];
+    return NULL;
+}
+
 
 //FREObject statusBarColor(FREContext ctx, void* functionData, uint32_t argc, FREObject argv[] ){
   //  NativeDialogControler *nativeDialogController = functionData;

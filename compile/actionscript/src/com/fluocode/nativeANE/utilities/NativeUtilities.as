@@ -207,6 +207,8 @@ package com.fluocode.nativeANE.utilities
 		 */
 		public static function blockScreenshot(block:Boolean):void
 		{
+			//trace('blockScreenshot is android', isAndroid());
+			//trace('blockScreenshot is iOS', isIOS());
 			if( !isAndroid()  ) return;
 			try
 			{
@@ -431,9 +433,15 @@ package com.fluocode.nativeANE.utilities
          * @param value Decimal between 0-1, or -1 to use user's preference.
          */
         public static function setBrightness( value:Number ):void {
-            if( !isAndroid()  ) return;
-
-            context.call( "setBrightness", value );
+            try{
+				if(isIOS() || isAndroid()){
+            	context.call( "setBrightness", value );
+			}
+			catch(error:Error) 
+			{
+				showError("'setBrightness' "+error.message,error.errorID);
+			}
+			return;
         }
 		
 		
